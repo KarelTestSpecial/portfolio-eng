@@ -24,10 +24,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build
-        run: pnpm run build
+        run: pnpm install
 
       - name: Configure Git
         run: |
@@ -35,7 +32,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
-      - name: Deploy to gh-pages branch
-        run: pnpm exec gh-pages -d build
+      - name: Update, Build, and Deploy
+        run: pnpm run update-and-deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
