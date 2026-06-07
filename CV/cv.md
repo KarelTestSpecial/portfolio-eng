@@ -41,16 +41,20 @@ A selection of personal projects that illustrate my current technical skills. Fo
 
 ---
 
-### **Work Experience**
-
-**Web Developer** | Visitronics NV, Leuven | 01/2001 – 08/2001
-
-* Developed and maintained custom web applications for various clients.  
-* Applied a range of web technologies to meet specific functional requirements.
-
-**Other positions** | 1994 - 2025
-
-* Fulfilled various roles as **Factory Worker** (Pasec), **Kitchen Assistant** (Paviljoen C), **Clothing Repairer** (De Haven), **Cook** (FPC), **Courier** (Pizza City), **Temp Worker** (Randstad, Brussels), **Warehouse Worker** (IKEA, Ternat), **Kitchen Assistant** (Restaura, Zaventem) and **Telephone Interviewer** (Tele-Performance), demonstrating a strong work ethic and adaptability.
+Work Experience
+Web Developer | Visitronics NV, Leuven | 01/2001 – 08/2001
+Developed and maintained custom web applications for various clients.
+Applied a range of web technologies to meet specific functional requirements.
+Other positions | 1994 - 2025
+Factory Worker (Pasec)
+Kitchen Assistant (Paviljoen C)
+Clothing Repairer (De Haven)
+Cook (FPC)
+Courier (Pizza City)
+Temp Worker (Randstad, Brussels)
+Warehouse Worker (IKEA, Ternat)
+Kitchen Assistant (Restaura, Zaventem)
+Telephone Interviewer (Tele-Performance)
 
 ---
 
