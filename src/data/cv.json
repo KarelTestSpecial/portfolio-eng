@@ -6,45 +6,67 @@
     "linkedin": "linkedin.com/in/karel-decherf-8212a9221",
     "github": "github.com/KarelTestSpecial"
   },
-  "profile": "Driven and analytical Solutions Architect with a lifelong passion for programming. Acting as an **AI-Augmented Lead Developer**, I leverage cutting-edge generative AI tools (Gemini 3.0, Jules) to architect and deliver complex full-stack solutions at triple the speed of traditional development. My background combines deep resilience with an intense, self-directed mastery of modern tech stacks. I am fully operational and ready to lead high-velocity projects.",
-  "notice": "Available for freelance contracts and international remote work.",
+  "profile": "Driven and analytical IT professional with a lifelong passion for programming and a solid background in web development. Experienced in a wide range of technologies including JavaScript, TypeScript, Python and SQL. I demonstrate current skills and initiative through the continued development and publication of various projects, including multiple Chrome Web Store extensions and open-source code on GitHub. After a period of inactivity, thanks to technological advances I am fully operational again and motivated to contribute my problem-solving skills and technical expertise to a forward-thinking team.",
+  "notice": "Eligible for employer subsidy schemes, which can provide an additional advantage for employers.",
   "workExperience": [
-    {
-      "role": "AI-Augmented Solutions Architect (Freelance)",
-      "company": "Self-Employed",
-      "period": "2024 - Present",
-      "description": "Orchestrating autonomous AI agents to build full-stack web applications, Chrome extensions, and data pipelines. Specializing in rapid prototyping, legacy system modernization, and AI integration."
-    },
-    {
-      "role": "Diverse Roles (Logistics, Horeca)",
-      "company": "Various",
-      "period": "2001 - 2024",
-      "description": "Developed strong work ethic and adaptability in various sectors while continuously self-educating in software development."
-    },
     {
       "role": "Web Developer",
       "company": "Visitronics NV, Leuven",
       "period": "01/2001 – 08/2001",
-      "description": "Developed and maintained custom web applications. Applied a range of web technologies to meet specific functional requirements."
+      "description": "Developed and maintained custom web applications for various clients. Applied a range of web technologies to meet specific functional requirements."
+    },
+    {
+      "role": "Warehouse Worker",
+      "company": "IKEA, Ternat",
+      "period": "03/1998 – 01/2001",
+      "description": "Responsible for inventory management and processing incoming and outgoing goods. Optimized warehouse operations for maximum efficiency."
+    },
+    {
+      "role": "Various Roles",
+      "company": "",
+      "period": "04/1994 – 02/1997",
+      "description": "Courier, Temp Worker (Randstad, Brussels), Kitchen Assistant (Restaura, Zaventem) and Telephone Interviewer (Tele-Performance), demonstrating a strong work ethic and adaptability. 2001 \\- 2025 : Factory Worker (Pasec), Kitchen Assistant (Paviljoen C), Clothing Repairer (De Haven), Cook (FPC)"
     }
   ],
   "skills": {
-    "ai_orchestration": "Google Antigravity, Google Jules 2.0, Gemini CLI, Prompt Engineering, Agentic Workflows, AI-Driven Code Generation",
-    "full_stack_architecture": "React (Vite, TypeScript), Python (FastAPI, Django), Node.js, Spring Boot, SQL, RESTful APIs",
-    "cloud_devops": "AWS, Google Cloud Platform, Docker, GitHub Actions (CI/CD), Firebase, Supabase",
-    "testing_qa": "Vitest, Playwright, Cygnet, Automated Testing Strategies",
-    "tools": "VS Code, Cursor, Linux (Debian/ChromeOS), Git"
+    "ai_tools_automation": "Google Jules 2.0, Google Gemini CLI, Google Firebase Studio, Google AI Studio, GitHub SpecKit, GitHub Copilot, OpenAI ChatGPT, Anthropic Claude, Perplexity, Qwen, Manus AI, Genspark, Abacus DeepAgent, Lemon AI, AWS Kiro",
+    "full-stack_development": "Java (JSP, Spring Boot, Spring Security (JWT), Spring Data JPA (Hibernate), Maven), JavaScript/TypeScript (Node.js, Express.js, NestJS; React; Vite, Vitest), Python (Django, Flask), PHP (Laravel, FastAPI), Perl, Visual Basic, .NET (ASP.NET Core), IBM RPG, SQL, HTML, CSS, JSON, XML, RESTful API",
+    "devops,_cloud_infrastructure": "PostgreSQL, MySQL, SQL Server, Firebase, Supabase, Nginx, Apache, IIS, Git, GitHub Actions (CI/CD), Docker, Google Cloud Platform, Azure, Netlify, Vercel, Render",
+    "testing_qa": "JUnit 5, Mockito, Spring Boot Test (`@SpringBootTest`), Jest, Vitest, React Testing Library, Cypress, Playwright, Postman",
+    "development_tools_software": "VS Code, Cursor, Replit, Microsoft Office, Google Workspace, Odoo, Notion, Bash / PowerShell / Terminal",
+    "web_design_graphics": "Figma, Canva, Photoshop, Photopea, WordPress, Wix",
+    "operating_systems_networking": "Windows, Linux, ChromeOS, WINS, DHCP, DNS"
   },
   "education": [
+    {
+      "degree": "Introduction to Psychology",
+      "institution": "Open University",
+      "year": "2012"
+    },
+    {
+      "degree": "Conversion Industrial Engineering Mechanics (HTL4MMC)",
+      "institution": "",
+      "year": "2011"
+    },
     {
       "degree": "Professional Bachelor in Applied Informatics",
       "institution": "GOCI Aarschot",
       "year": "2001"
     },
     {
-      "degree": "Candidacy Industrial Engineer (Cum Laude)",
+      "degree": "Candidacy Industrial Engineer (1st year cum laude)",
       "institution": "KIH De Nayer",
       "year": "1995"
+    },
+    {
+      "degree": "Candidacy Philosophy",
+      "institution": "KU Leuven",
+      "year": "1993 – 1994"
+    },
+    {
+      "degree": "ASO Sciences-Mathematics (8h Math)",
+      "institution": "Sint-Godelieve-Instituut Lennik",
+      "year": "1993"
     }
   ],
   "languages": [
@@ -54,11 +76,15 @@
     },
     {
       "language": "English",
-      "proficiency": "Professional Working Proficiency"
+      "proficiency": "Good"
     },
     {
       "language": "French",
-      "proficiency": "Proficient"
+      "proficiency": "Good"
+    },
+    {
+      "language": "German and Spanish",
+      "proficiency": "Basic notions"
     }
   ],
   "transport": "Driving License B"

@@ -54,14 +54,25 @@ function parseCvMarkdown(md) {
     };
 
     // --- Profile & Notice ---
-    const profileSection = getSection(md, '### **Profiel**');
-    const profileParts = profileSection.split('Komt in aanmerking');
-    cv.profile = cleanLine(profileParts[0]);
-    cv.notice = profileParts[1] ? cleanLine('Komt in aanmerking' + profileParts[1]) : '';
+    const profileSection = getSection(md, '### **Profiel**') || getSection(md, '### **Profile**');
+    let profileParts = profileSection.split('Komt in aanmerking');
+    if (profileParts.length > 1) {
+        cv.profile = cleanLine(profileParts[0]);
+        cv.notice = cleanLine('Komt in aanmerking' + profileParts[1]);
+    } else {
+        profileParts = profileSection.split('Eligible for employer');
+        if (profileParts.length > 1) {
+            cv.profile = cleanLine(profileParts[0]);
+            cv.notice = cleanLine('Eligible for employer' + profileParts[1]);
+        } else {
+            cv.profile = cleanLine(profileSection);
+            cv.notice = '';
+        }
+    }
 
 
     // --- Work Experience ---
-    const expSection = getSection(md, '### **Werkervaring**');
+    const expSection = getSection(md, '### **Werkervaring**') || getSection(md, '### **Work Experience**');
     cv.workExperience = [];
     const lines = expSection.split('\n');
     let currentJob = null;
@@ -95,7 +106,7 @@ function parseCvMarkdown(md) {
     }
 
     // --- Skills ---
-    const skillsSection = getSection(md, '### **Vaardigheden**');
+    const skillsSection = getSection(md, '### **Vaardigheden**') || getSection(md, '### **Skills**');
     cv.skills = {};
     const skillLines = skillsSection.split('\n').filter(line => line.includes(':'));
     skillLines.forEach(line => {
@@ -106,7 +117,7 @@ function parseCvMarkdown(md) {
     });
 
     // --- Education ---
-    const eduSection = getSection(md, '### **Opleidingen en Cursussen**');
+    const eduSection = getSection(md, '### **Opleidingen en Cursussen**') || getSection(md, '### **Education**');
     cv.education = [];
     const eduLines = eduSection.split('\n').filter(line => line.trim());
     eduLines.forEach(line => {
@@ -121,11 +132,11 @@ function parseCvMarkdown(md) {
     });
 
     // --- Languages & Transport ---
-    const langSection = getSection(md, '### **Talen & Vervoer**');
+    const langSection = getSection(md, '### **Talen & Vervoer**') || getSection(md, '### **Languages & Mobility**');
     cv.languages = [];
     const langLines = langSection.split('\n').filter(line => line.trim());
     langLines.forEach(line => {
-        if (line.includes('Rijbewijs')) {
+        if (line.includes('Rijbewijs') || line.includes('Driving License')) {
             const parts = line.split(':');
             cv.transport = parts.length > 1 ? cleanLine(parts[1]) : '';
         } else if (line.includes(':')) {
