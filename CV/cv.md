@@ -43,20 +43,14 @@ A selection of personal projects that illustrate my current technical skills. Fo
 
 ### **Work Experience**
 
+* 2001 \- 2025 : **Factory Worker** (Pasec), **Kitchen Assistant** (Paviljoen C), **Clothing Repairer** (De Haven), **Cook** (FPC)
+
 **Web Developer** | Visitronics NV, Leuven | 01/2001 – 08/2001
 
 * Developed and maintained custom web applications for various clients.  
 * Applied a range of web technologies to meet specific functional requirements.
 
-**Warehouse Worker** | IKEA, Ternat | 03/1998 – 01/2001
-
-* Responsible for inventory management and processing incoming and outgoing goods.  
-* Optimized warehouse operations for maximum efficiency.
-
-**Various Roles** | 04/1994 – 02/1997 
-
-* **Courier**, **Temp Worker** (Randstad, Brussels), **Kitchen Assistant** (Restaura, Zaventem) and **Telephone Interviewer** (Tele-Performance), demonstrating a strong work ethic and adaptability.  
-* 2001 \- 2025 : **Factory Worker** (Pasec), **Kitchen Assistant** (Paviljoen C), **Clothing Repairer** (De Haven), **Cook** (FPC)
+* 1994 – 1997 : Fulfilled various roles as **Courier**, **Temp Worker** (Randstad, Brussels), **Warehouse Worker** (IKEA, Ternat), **Kitchen Assistant** (Restaura, Zaventem) and **Telephone Interviewer** (Tele-Performance), demonstrating a strong work ethic and adaptability.
 
 ---
 
