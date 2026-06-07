@@ -34,12 +34,15 @@ jobs:
       - name: Update CV data
         run: pnpm run update-cv
 
+      - name: Update projects data
+        run: pnpm run update-projects
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add src/data/cv.json
-          git diff --staged --quiet || (git commit -m "chore: Update cv.json from CV.md" && git push)
+          git add src/data/
+          git diff --staged --quiet || (git commit -m "chore: Update data files" && git push)
 
       - name: Build
         run: pnpm run build
