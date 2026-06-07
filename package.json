@@ -1,5 +1,5 @@
 {
-  "homepage": "https://KarelTestSpecial.github.io/portfolio-aiga",
+  "homepage": "https://kareltestspecial.github.io/portfolio-eng",
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +29,7 @@
     "update-projects": "node scripts/update-projects.js",
     "update-projects-from-url": "node scripts/update-projects-from-url.js",
     "update-cv": "node scripts/update-cv.js",
-    "predeploy": "PUBLIC_URL=https://KarelTestSpecial.github.io/portfolio-aiga react-scripts build",
+    "predeploy": "PUBLIC_URL=https://kareltestspecial.github.io/portfolio-eng react-scripts build",
     "deploy": "gh-pages -d build",
     "update-and-deploy": "pnpm run update-projects && pnpm run build && pnpm run deploy"
   },
