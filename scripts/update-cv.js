@@ -77,10 +77,32 @@ function parseCvMarkdown(md) {
     const lines = expSection.split('\n');
     let currentJob = null;
 
+    // Matches bullet-point entries: * 2001 - 2025 : ... or * 04/1994 – 02/1997 : ...
+    const bulletJobRegex = /^\s*\*\s*([^:]+?)\s*:\s*(.+)/;
+    // Matches heading entries: **ROLE** | COMPANY | PERIOD
+    const pipeJobRegex = /\|/;
+
     lines.forEach(line => {
         const cleaned = cleanLine(line);
-        if (line.includes('|')) {
-            // This is a title line, save the previous job and start a new one
+        if (!cleaned) return;
+
+        // Bullet-point style job entry
+        const bulletMatch = line.match(bulletJobRegex);
+        if (bulletMatch) {
+            if (currentJob) {
+                cv.workExperience.push(currentJob);
+            }
+            currentJob = {
+                role: '',
+                company: '',
+                period: cleanLine(bulletMatch[1]),
+                description: cleanLine(bulletMatch[2])
+            };
+            return;
+        }
+
+        // Pipe-separated heading style job entry
+        if (pipeJobRegex.test(line)) {
             if (currentJob) {
                 cv.workExperience.push(currentJob);
             }
@@ -94,8 +116,11 @@ function parseCvMarkdown(md) {
                 company = '';
             }
             currentJob = { role, company, period, description: '' };
-        } else if (currentJob && cleaned) {
-            // This is a description line for the current job
+            return;
+        }
+
+        // Description line for the current job
+        if (currentJob && cleaned) {
             currentJob.description = (currentJob.description + ' ' + cleaned).trim();
         }
     });

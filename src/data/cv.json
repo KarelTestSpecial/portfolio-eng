@@ -10,10 +10,22 @@
   "notice": "Eligible for employer subsidy schemes, which can provide an additional advantage for employers.",
   "workExperience": [
     {
+      "role": "",
+      "company": "",
+      "period": "2001 \\- 2025",
+      "description": "Factory Worker (Pasec), Kitchen Assistant (Paviljoen C), Clothing Repairer (De Haven), Cook (FPC)"
+    },
+    {
       "role": "Web Developer",
       "company": "Visitronics NV, Leuven",
       "period": "01/2001 – 08/2001",
-      "description": "Developed and maintained custom web applications for various clients. Applied a range of web technologies to meet specific functional requirements. 1994 – 1997 : Fulfilled various roles as Courier, Temp Worker (Randstad, Brussels), Warehouse Worker (IKEA, Ternat), Kitchen Assistant (Restaura, Zaventem) and Telephone Interviewer (Tele-Performance), demonstrating a strong work ethic and adaptability."
+      "description": "Developed and maintained custom web applications for various clients. Applied a range of web technologies to meet specific functional requirements."
+    },
+    {
+      "role": "",
+      "company": "",
+      "period": "1994 – 1997",
+      "description": "Fulfilled various roles as Courier, Temp Worker (Randstad, Brussels), Warehouse Worker (IKEA, Ternat), Kitchen Assistant (Restaura, Zaventem) and Telephone Interviewer (Tele-Performance), demonstrating a strong work ethic and adaptability."
     }
   ],
   "skills": {
