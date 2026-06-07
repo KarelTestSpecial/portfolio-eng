@@ -45,7 +45,7 @@ Work Experience
 Web Developer | Visitronics NV, Leuven | 01/2001 – 08/2001
 Developed and maintained custom web applications for various clients.
 Applied a range of web technologies to meet specific functional requirements.
-Other positions | 1994 - 2025
+Other positions | Various roles | 1994 - 2025
 Factory Worker (Pasec)
 Kitchen Assistant (Paviljoen C)
 Clothing Repairer (De Haven)
