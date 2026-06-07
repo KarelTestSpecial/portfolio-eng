@@ -13,13 +13,18 @@
       "role": "Web Developer",
       "company": "Visitronics NV, Leuven",
       "period": "01/2001 – 08/2001",
-      "description": "Developed and maintained custom web applications for various clients. Applied a range of web technologies to meet specific functional requirements."
+      "description": [
+        "Developed and maintained custom web applications for various clients.",
+        "Applied a range of web technologies to meet specific functional requirements."
+      ]
     },
     {
       "role": "Other positions",
       "company": "",
       "period": "1994 - 2025",
-      "description": "Fulfilled various roles as Factory Worker (Pasec), Kitchen Assistant (Paviljoen C), Clothing Repairer (De Haven), Cook (FPC), Courier (Pizza City), Temp Worker (Randstad, Brussels), Warehouse Worker (IKEA, Ternat), Kitchen Assistant (Restaura, Zaventem) and Telephone Interviewer (Tele-Performance), demonstrating a strong work ethic and adaptability."
+      "description": [
+        "Fulfilled various roles as Factory Worker (Pasec), Kitchen Assistant (Paviljoen C), Clothing Repairer (De Haven), Cook (FPC), Courier (Pizza City), Temp Worker (Randstad, Brussels), Warehouse Worker (IKEA, Ternat), Kitchen Assistant (Restaura, Zaventem) and Telephone Interviewer (Tele-Performance), demonstrating a strong work ethic and adaptability."
+      ]
     }
   ],
   "skills": {
