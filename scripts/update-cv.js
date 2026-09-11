@@ -42,7 +42,7 @@ function parseCvMarkdown(md) {
     const contactLines = contactSection.split('\n').filter(line => line.trim() !== '');
     cv.name = cleanLine(contactLines[0]);
     const detailsLine = contactLines[1];
-    const addressMatch = detailsLine.match(/^([^|]+)/);
+    const addressMatch = detailsLine.includes('|') ? detailsLine.match(/^([^|]+)/) : null;
     const emailMatch = detailsLine.match(/\[(.*?@.*?)\]/);
     const linkedinMatch = detailsLine.match(/\[(linkedin.com.*?)\]/);
     const githubMatch = detailsLine.match(/\[(github.com.*?)\]/);
