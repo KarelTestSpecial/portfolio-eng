@@ -23,13 +23,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "node scripts/update-projects.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "update-projects": "node scripts/update-projects.js",
     "update-projects-from-url": "node scripts/update-projects-from-url.js",
     "update-cv": "node scripts/update-cv.js",
-    "predeploy": "PUBLIC_URL=https://kareltestspecial.github.io/portfolio-eng react-scripts build",
+    "predeploy": "PUBLIC_URL=https://kareltestspecial.github.io/portfolio-eng pnpm run build",
     "deploy": "gh-pages -d build",
     "update-and-deploy": "pnpm run update-projects && pnpm run build && pnpm run deploy"
   },
