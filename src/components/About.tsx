@@ -17,7 +17,6 @@ const About: React.FC = () => {
             <h4>Contact Details</h4>
             <ul className="list-unstyled">
               <li><strong>Name:</strong> {cvData.name}</li>
-              <li><strong>Address:</strong> {cvData.contact.address}</li>
               <li><strong>Email:</strong> <a href={`mailto:${cvData.contact.email}`}>{cvData.contact.email}</a></li>
               <li><strong>LinkedIn:</strong> <a href={`https://${cvData.contact.linkedin}`} target="_blank" rel="noopener noreferrer">{cvData.contact.linkedin}</a></li>
               <li><strong>GitHub:</strong> <a href={`https://${cvData.contact.github}`} target="_blank" rel="noopener noreferrer">{cvData.contact.github}</a></li>

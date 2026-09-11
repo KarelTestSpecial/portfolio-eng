@@ -1,7 +1,7 @@
 {
   "name": "Karel Decherf",
   "contact": {
-    "address": "Hurstweg 9, 9000 Gent",
+    "address": "",
     "email": "karel.decherf@gmail.be",
     "linkedin": "linkedin.com/in/karel-decherf-bb0b7140a",
     "github": "github.com/KarelTestSpecial"
@@ -24,9 +24,9 @@
       "period": "1994 - 2025",
       "description": [
         "Factory Worker (Pasec)",
-        "Kitchen Assistant (Paviljoen C)",
-        "Clothing Repairer (De Haven)",
-        "Cook (FPC)",
+        "Kitchen Assistant",
+        "Clothing Repairer",
+        "Cook",
         "Courier (Pizza City)",
         "Temp Worker (Randstad, Brussels)",
         "Warehouse Worker (IKEA, Ternat)",
@@ -56,7 +56,7 @@
       "year": "2011"
     },
     {
-      "degree": "Professional Bachelor in Applied Informatics",
+      "degree": "Higher Education Applied Informatics (A1)",
       "institution": "GOCI Aarschot",
       "year": "2001"
     },

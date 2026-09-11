@@ -2,7 +2,7 @@
 
 # **Karel Decherf**
 
-Hurstweg 9, 9000 Gent | [karel.decherf@gmail.be](mailto:karel.decherf@gmail.be) [linkedin.com/in/karel-decherf-bb0b7140a](https://www.linkedin.com/in/karel-decherf-bb0b7140a) | [github.com/KarelTestSpecial](https://github.com/KarelTestSpecial)
+[karel.decherf@gmail.be](mailto:karel.decherf@gmail.be) [linkedin.com/in/karel-decherf-bb0b7140a](https://www.linkedin.com/in/karel-decherf-bb0b7140a) | [github.com/KarelTestSpecial](https://github.com/KarelTestSpecial)
 
 ---
 
@@ -47,9 +47,9 @@ Developed and maintained custom web applications for various clients.
 Applied a range of web technologies to meet specific functional requirements.
 Other positions | Various roles | 1994 - 2025
 Factory Worker (Pasec)
-Kitchen Assistant (Paviljoen C)
-Clothing Repairer (De Haven)
-Cook (FPC)
+Kitchen Assistant
+Clothing Repairer
+Cook
 Courier (Pizza City)
 Temp Worker (Randstad, Brussels)
 Warehouse Worker (IKEA, Ternat)
@@ -74,7 +74,7 @@ Telephone Interviewer (Tele-Performance)
 
 * **Introduction to Psychology** | Open University | 2012  
 * **Conversion Industrial Engineering Mechanics (HTL4MMC)** | 2011  
-* **Professional Bachelor in Applied Informatics** | GOCI Aarschot | 2001  
+* **Higher Education Applied Informatics (A1)** | GOCI Aarschot | 2001  
 * **Candidacy Industrial Engineer (1st year cum laude)** | KIH De Nayer | 1995  
 * **Candidacy Philosophy** | KU Leuven | 1993 – 1994  
 * **ASO Sciences-Mathematics (8h Math)** | Sint-Godelieve-Instituut Lennik | 1993
